@@ -59,6 +59,36 @@ main {
     color: white;
     background-color: var(--primary-color);
 }
+.formulario h2 {
+    margin-bottom: 1rem;
+}
+.formulario form div {
+    padding: 0.5rem;
+}
+input[type="text"] {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+input[type="email"] {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+fieldset {
+    border: none;
+    margin-top: 0.5rem;
+}
+fieldset label {
+    display: block;
+    margin-top: 0.5rem;
+}
+input[type="submit"] {
+    padding: 0.5rem;
+    margin: 2rem 0 0 0;
+}
 /* ----------------------------------- */
 /* Footer */
 footer {
