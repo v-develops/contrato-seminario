@@ -33,13 +33,45 @@ h1 {
 /* ----------------------------------- */
 /* Main */
 main {
-    max-width: 75%;
+    width: 90%;
+    max-width: 900px;
     margin: auto;
 }
+/* Estilizar contrato */
 .contrato {
     text-align: center;
+    margin: 2rem;
+}
+.contrato h2 {
+    margin: 2rem;
+}
+.contrato h3 {
+    margin: 1rem;
+}
+.contrato p {
+    text-align: left;
+}
+/* Estilizar formulário */
+.formulario {
+    margin-bottom: 2rem;
+    padding: 2rem;
+
+    color: white;
+    background-color: var(--primary-color);
 }
 /* ----------------------------------- */
 /* Footer */
+footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
 
+    background-color: var(--primary-color);
+    border-top: 0.5rem solid var(--secondary-color);
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+footer p {
+    color: white;
+    padding: 2rem;
+}
 /* ----------------------------------- */
